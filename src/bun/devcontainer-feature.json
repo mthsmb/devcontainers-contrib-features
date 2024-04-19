@@ -1,0 +1,17 @@
+{
+    "id": "bun",
+    "version": "1.0.0",
+    "name": "Bun (via GitHub releases)",
+    "description": "Bun is a fast all-in-one JavaScript runtime installed using GitHub releases.",
+    "documentationURL": "https://github.com/devcontainers-contrib/features/tree/main/src/bun",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "latest"
+            ],
+            "default": "latest",
+            "description": "Select the Bun version you would like to install"
+        }
+    }
+}

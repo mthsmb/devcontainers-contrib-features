@@ -1,0 +1,20 @@
+{
+    "id": "bun-asdf",
+    "version": "1.0.0",
+    "name": "Bun (via asdf)",
+    "description": "Bun is a fast all-in-one JavaScript runtime that uses the asdf version manager for installation.",
+    "documentationURL": "http://github.com/devcontainers-contrib/features/tree/main/src/bun-asdf",
+    "options": {
+        "version": {
+            "default": "latest",
+            "description": "Select the Bun version to install.",
+            "proposals": [
+                "latest"
+            ],
+            "type": "string"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers-contrib/features/asdf-package"
+    ]
+}
